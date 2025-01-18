@@ -73,5 +73,6 @@ while game:
         if ball.rect.x > 700:
             R_win = font.render('ПОБЕДИЛА ЛЕВАЯ СТОРОНА', False, (0, 255, 0))
             window.blit(R_win, (150, 225))
+            finish = True
     display.flip()
     clock.tick(60)
